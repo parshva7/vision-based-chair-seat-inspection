@@ -153,6 +153,8 @@ The system is driven by JSON files in the `models/` directory:
 ![GitHub issues](https://img.shields.io/github/issues/parshva7/Online-Learning-Platform?style=for-the-badge)
 
 </div>
+
 ---
+
 ## 📝 License
 This project is developed for quality control in manufacturing. Please refer to `PROJECT_DOCUMENTATION.md` for further technical details.
