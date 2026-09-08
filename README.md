@@ -145,7 +145,7 @@ The system is driven by JSON files in the `models/` directory:
 
 ⭐ If you found this project useful, please consider giving it a star.
 
-<div align="center">
+<div align="center"/>
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/parshva7/Online-Learning-Platform?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/parshva7/Online-Learning-Platform?style=for-the-badge)
