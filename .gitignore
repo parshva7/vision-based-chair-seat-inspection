@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project specific data/outputs (Ignored to keep repo clean)
+img/
+outputs/
+qr_codes_test_results/
+src/1/
+src/2/
+
+# Local environment files
+.env
+.venv/
+venv/

@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import pptx; print\\('python-pptx version:', pptx.__version__\\)\")",
+      "Bash(pip3 install *)",
+      "Bash(python3 *)",
+      "Bash(python -m py_compile capture_images.py)",
+      "Bash(python *)",
+      "Bash(pkill *)",
+      "Bash(jobs *)",
+      "Bash(tee /tmp/run.log)",
+      "Bash(tee /tmp/gui_test.log)",
+      "Bash(brew install *)",
+      "Bash(curl -s http://localhost:8765/)",
+      "Bash(lsof -ti:8765)",
+      "Bash(xargs -r kill -9)",
+      "Bash(curl -sI http://localhost:8765/0001/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://192.168.1.100:8765/9999/)",
+      "Bash(curl -s http://192.168.1.100:8765/)",
+      "Bash(grep -E '\\\\.\\(png|txt\\)$')",
+      "Bash(chmod +x /Users/parshvapanchal/Godrej_project/chair-staple-inspection_v2/run.sh)",
+      "Bash(zbarimg --quiet qr_codes_test_results/0005.png qr_codes_test_results/0006.png)",
+      "Bash(chmod 644 qr_codes_test_results/0005.txt qr_codes_test_results/0005.png qr_codes_test_results/0006.txt qr_codes_test_results/0006.png)",
+      "Bash(rm qr_codes_test_results/0005.* qr_codes_test_results/0006.*)",
+      "Bash(zbarimg --quiet /tmp/test_qr.png)",
+      "Bash(zbarimg --raw -q /tmp/test_qr.png)",
+      "Bash(chmod 644 qr_codes_test_results/*.png qr_codes_test_results/*.txt)",
+      "Bash(rm -f qr_codes_test_results/*.png qr_codes_test_results/*.txt)",
+      "Bash(system_profiler SPCameraDataType)",
+      "Bash(ffmpeg -f avfoundation -list_devices true -i \"\")",
+      "Bash(/usr/local/bin/python3 *)",
+      "mcp__ide__getDiagnostics",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}

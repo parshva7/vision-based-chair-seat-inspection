@@ -1,0 +1,19 @@
+# Chair staple inspection rig — Python dependencies
+# Install with:  pip install -r requirements.txt
+#
+# Tested on:
+#   - macOS (dev box, no RPi.GPIO — capture_images.py auto-falls back to a mock)
+#   - Raspberry Pi OS (production — RPi.GPIO drives the rotary actuator)
+
+opencv-python>=4.8
+numpy>=1.24
+Pillow>=10.0
+qrcode>=7.4
+
+# Raspberry Pi only — drives the rotary actuator on GPIO23/16/24/26/25.
+# Not installable on macOS/Windows; capture_images.py falls back to a mock
+# backend if this import fails. On the Pi, install with:
+#   sudo apt-get install python3-rpi.gpio
+# or:
+#   pip install RPi.GPIO
+# RPi.GPIO ; sys_platform == "linux" and platform_machine == "aarch64"
