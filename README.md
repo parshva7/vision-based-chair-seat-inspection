@@ -132,6 +132,27 @@ The system is driven by JSON files in the `models/` directory:
 - `side_points.json`: Defines critical points for side views.
 
 ---
+# 👨‍💻 Author
 
+**Parshva Panchal**
+
+- GitHub: https://github.com/parshva7
+- LinkedIn: https://linkedin.com/in/parshvap1
+
+---
+
+<div align="center">
+
+⭐ If you found this project useful, please consider giving it a star.
+
+<div align="center">
+
+![GitHub Repo stars](https://img.shields.io/github/stars/parshva7/Online-Learning-Platform?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/parshva7/Online-Learning-Platform?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/parshva7/Online-Learning-Platform?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/parshva7/Online-Learning-Platform?style=for-the-badge)
+
+</div>
+---
 ## 📝 License
 This project is developed for quality control in manufacturing. Please refer to `PROJECT_DOCUMENTATION.md` for further technical details.
