@@ -17,7 +17,94 @@ An automated quality-control solution designed for chair manufacturing lines. Th
 ---
 
 ## 🚀 Getting Started
+## 📸 System Screenshots & Demo
 
+### 1. Chair Recipe Selection
+
+The operator selects the chair variant loaded on the fixture. The selected recipe determines which calibration model is used for inspection.
+
+![Chair Recipe Selection](images/1.png)
+
+---
+
+### 2. Back & Front Camera Capture
+
+The system verifies the camera status and fixture position before capturing the Back and Front views.
+
+![Back and Front Capture](images/2.png)
+
+---
+
+### 3. Fixture Rotation
+
+After the Back and Front images are captured, the system waits for the physical push button to rotate the fixture by 90°.
+
+![Fixture Rotation](images/3.png)
+
+---
+
+### 4. Right & Left Camera Capture
+
+Once the fixture reaches the 90° position, the system captures the Right and Left views.
+
+![Right and Left Capture](images/4.png)
+
+---
+
+### 5. Inspection Results Dashboard
+
+After all views are processed, the system displays the overall PASS/FAIL result along with side-wise staple counts and detected regions.
+
+![Inspection Results Dashboard](images/5.png)
+
+---
+
+### 6. Inspection Result Label
+
+For a failed inspection, the system generates a physical result label containing the chair ID, inspection result, total staple count, date, time, and QR code.
+
+![Inspection Result Label](images/6.jpeg)
+
+---
+
+## 🎥 Project Demonstration
+
+### Demo 1
+
+[▶️ Click here to watch the inspection demo](images/2.mp4)
+
+### Demo 2
+
+[▶️ Click here to watch the second inspection demo](images/5.mp4)
+
+---
+
+## 🔄 Inspection Workflow
+
+```text
+        SELECT CHAIR RECIPE
+                ↓
+       CHECK CAMERA STATUS
+                ↓
+      CHECK FIXTURE POSITION
+                ↓
+       CAPTURE BACK + FRONT
+                ↓
+        ROTATE FIXTURE 90°
+                ↓
+       CAPTURE RIGHT + LEFT
+                ↓
+        APPLY CALIBRATION
+                ↓
+        DETECT STAPLES
+                ↓
+    VALIDATE INSPECTION REGIONS
+                ↓
+       GENERATE RESULTS
+                ↓
+          PASS / FAIL
+                ↓
+       RESULT + QR LABEL
 ### Prerequisites
 - **Python**: 3.9 to 3.12 (Tested on 3.11)
 - **OS**: Linux (Ubuntu), macOS, or Windows 10/11
